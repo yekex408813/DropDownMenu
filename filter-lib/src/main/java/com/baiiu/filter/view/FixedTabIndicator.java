@@ -44,7 +44,7 @@ public class FixedTabIndicator extends LinearLayout {
 
     private int mTabTextSize = 13;// 指针文字的大小,sp
     private int mTabDefaultColor = 0xFF666666;// 未选中默认颜色
-    private int mTabSelectedColor = 0xFF008DF2;// 指针选中颜色
+    private int mTabSelectedColor = 0xFF00AE66; //0xFF008DF2;// 指针选中颜色
     private int drawableRight = 10;
 
     private int measureHeight;
