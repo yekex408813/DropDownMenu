@@ -18,7 +18,8 @@
             android:gravity="center_vertical"
             android:text="建筑面积（㎡）"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="16sp"
+            android:textColor="@color/color_title_3F4549"
             android:layout_marginBottom="15dp"
             />
 
@@ -29,11 +30,11 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:clipToPadding="true"
-            android:horizontalSpacing="12dp"
             android:listSelector="@android:color/transparent"
             android:numColumns="4"
             android:paddingBottom="15dp"
             android:scrollbars="none"
+            android:horizontalSpacing="20dp"
             android:verticalSpacing="15dp" />
 
 
@@ -44,7 +45,8 @@
             android:gravity="center_vertical"
             android:text="朝向"
             android:textStyle="bold"
-            android:textSize="18sp"
+            android:textSize="16sp"
+            android:textColor="@color/color_title_3F4549"
             android:layout_marginBottom="15dp"
             />
 
@@ -55,12 +57,12 @@
             android:layout_height="wrap_content"
             android:background="@null"
             android:clipToPadding="true"
-            android:horizontalSpacing="12dp"
             android:listSelector="@android:color/transparent"
             android:numColumns="4"
             android:paddingBottom="15dp"
             android:scrollbars="none"
-            android:verticalSpacing="15dp" />
+            android:horizontalSpacing="20dp"
+            android:verticalSpacing="15dp"  />
 
         <Button
             android:id="@+id/bt_confirm"

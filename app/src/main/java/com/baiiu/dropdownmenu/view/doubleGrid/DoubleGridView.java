@@ -64,7 +64,7 @@ public class DoubleGridView extends ScrollView implements View.OnClickListener {
         initAdapter(context);
 
         mTopGrid.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
-        mBottomGrid.setChoiceMode(AbsListView.CHOICE_MODE_SINGLE);
+        mBottomGrid.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
 
         mTopGrid.setAdapter(mTopAdapter);
         mBottomGrid.setAdapter(mBottomAdapter);
@@ -80,7 +80,7 @@ public class DoubleGridView extends ScrollView implements View.OnClickListener {
 
             @Override
             protected void initCheckedTextView(FilterCheckedTextView checkedTextView) {
-                checkedTextView.setPadding(0, UIUtil.dp(context, 3), 0, UIUtil.dp(context, 3));
+                checkedTextView.setPadding(0, UIUtil.dp(context, 3), 0, UIUtil.dp(context, 3));//设置内部的padding
                 checkedTextView.setGravity(Gravity.CENTER);
                 checkedTextView.setBackgroundResource(R.drawable.selector_filter_grid);
             }

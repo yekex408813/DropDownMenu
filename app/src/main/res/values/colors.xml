@@ -5,5 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="comment_divider">#cccccc</color>
 
+    <color name="color_title_3F4549">#3F4549</color>
+    <color name="colorBackgroundSelectedText">#D9F3E8</color>
 
 </resources>
