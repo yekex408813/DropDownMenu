@@ -8,7 +8,6 @@
         android:orientation="vertical"
         android:paddingBottom="25dp"
         android:paddingLeft="30dp"
-        android:paddingRight="30dp"
         android:paddingTop="13dp">
 
 
@@ -20,7 +19,6 @@
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/color_title_3F4549"
-            android:layout_marginBottom="15dp"
             />
 
 
@@ -28,14 +26,17 @@
             android:id="@+id/grid_top"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@null"
+            android:background="@drawable/gvis_border_bottom"
             android:clipToPadding="true"
             android:listSelector="@android:color/transparent"
             android:numColumns="4"
             android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:paddingRight="30dp"
             android:scrollbars="none"
             android:horizontalSpacing="20dp"
-            android:verticalSpacing="15dp" />
+            android:verticalSpacing="15dp"
+            />
 
 
         <TextView
@@ -47,7 +48,6 @@
             android:textStyle="bold"
             android:textSize="16sp"
             android:textColor="@color/color_title_3F4549"
-            android:layout_marginBottom="15dp"
             />
 
 
@@ -55,14 +55,17 @@
             android:id="@+id/grid_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@null"
             android:clipToPadding="true"
             android:listSelector="@android:color/transparent"
             android:numColumns="4"
             android:paddingBottom="15dp"
             android:scrollbars="none"
             android:horizontalSpacing="20dp"
-            android:verticalSpacing="15dp"  />
+            android:verticalSpacing="15dp"
+            android:background="@drawable/gvis_border_bottom"
+            android:paddingRight="30dp"
+            android:paddingTop="15dp"
+            />
 
         <Button
             android:id="@+id/bt_confirm"
